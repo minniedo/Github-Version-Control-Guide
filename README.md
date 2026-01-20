@@ -29,7 +29,10 @@ Follow the instructions on how to push an existing repository from the command l
 
 If you aren't using SSH keys, push via HTTPS instead
 
-```git remote set-url origin <https://github.com/username/reponame>```
+![Https URL](urlimage)
+
+```git remote set-url origin <Https url>```
+
 
 All done. Now you can push changes from your IDE to remote!
 
