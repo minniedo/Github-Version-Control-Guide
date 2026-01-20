@@ -73,8 +73,7 @@ All done. Now you can push changes from your IDE to remote!
    Grab the HTTPS url from the repository
    
    ``` git clone <repo-url> ```
-   
-[Repo url](images/diagram.png)
+  
 
 ---
 ### Miscellaneous 
