@@ -7,20 +7,27 @@ Make sure you are logged into the same GitHub account on your IDE
 
 ### 2. Stage and Commit Your Files
 Stage the files
-
-```git add . ```
+```bash
+git add .
+````
 
 Commit these files
 
-``` git commit -m "<some message" ```
+``` 
+git commit -m "<some message"
+```
 
 To verify all files are committed
 
-```git status```
+```
+git status
+```
 
 If there are untracked files still, add those files individually and commit again
 
-```git add <filename>```
+```
+git add <filename>
+```
 
 ### 3. Create the GitHub Repository
 Go to [GitHub](https://github.com) and create a new repository
@@ -31,9 +38,9 @@ If you aren't using SSH keys, push via HTTPS instead
 
 ![Https URL](urlimage.png)
 
-```git remote set-url origin <Https url>```
-
-
+```
+git remote set-url origin <repo-url>
+```
 All done. Now you can push changes from your IDE to remote!
 
 ---
@@ -41,41 +48,58 @@ All done. Now you can push changes from your IDE to remote!
 
 **Stages individual files. Think of it like putting files into a box **to be** saved, but it is not yet saved.  This is usually followed up with a ```git commit```**
 
- ```git add <filename>```
+ ```
+ git add <filename>
+```
 
 **Stages all uncommitted files that are within the same directory**
 
-``` git add .``` 
+``` 
+git add .
+``` 
 
 **Saves staged files**
 
- ```git commit -m "<some commit message>"```
+ ```
+ git commit -m "<some commit message>"
+```
 
 **Check what files are committed/uncommitted**
 
-```git status```
+```
+git status
+```
 
 **Push changes from your local branch to the remote branch**
 
-```git push```
+```
+git push
+```
 
 **Fetches and merges the latest changes from the remote branch**
 
-```git pull```
+```
+git pull
+```
 
 **Creates a new local branch based on an existing remote branch**
 
-```git checkout -b my-branch origin/my-branch```
+```
+git checkout -b my-branch origin/my-branch
+```
 
 **Creates a remote branch based on an existing local branch**
 
-```git push -u origin my-branch```
+```
+git push -u origin my-branch
+```
 
 **Clone an existing repository onto your local machine**
 
    Grab the HTTPS url from the repository
-   
-   ``` git clone <repo-url> ```
+``` 
+git clone <repo-url>
+```
   
 
 ---
