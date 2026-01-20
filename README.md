@@ -5,6 +5,13 @@
 
 Make sure you are logged into the same GitHub account on your IDE
 
+Install [git](https://git-scm.com/install/windows) if it is not already installed 
+
+Verify that it is installed
+```
+git --version
+```
+
 ### 2. Stage and Commit Your Files
 Stage the files
 ```bash
