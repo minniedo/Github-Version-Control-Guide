@@ -88,4 +88,4 @@ All done. Now you can push changes from your IDE to remote!
   - You edit the file directly on GitHub and it doesn't match what you have on your local branch
   - The remote branch that the PR is based on is not up to date
 - A **README** file gives instructions on setup, notes, etc
-- If you have files you want to be secret and only locally (e.g subscription keys) add it to **.gitignore** file
+- If you have files you want to be secret (e.g subscription keys) add it to **.gitignore** file so anytime you make new branches it is not visible on remote
