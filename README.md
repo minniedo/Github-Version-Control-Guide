@@ -29,7 +29,7 @@ Follow the instructions on how to push an existing repository from the command l
 
 If you aren't using SSH keys, push via HTTPS instead
 
-![Https URL](urlimage)
+![Https URL](urlimage.png)
 
 ```git remote set-url origin <Https url>```
 
