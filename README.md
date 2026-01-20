@@ -89,4 +89,3 @@ All done. Now you can push changes from your IDE to remote!
   - The remote branch that the PR is based on is not up to date
 - A **README** file gives instructions on setup, notes, etc
 - If you have files you want to be secret and only locally (e.g subscription keys) add it to **.gitignore** file
-- 
